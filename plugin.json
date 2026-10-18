@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vibe-video",
+  "version": "1.1.0",
+  "description": "按主题制作无旁白知识动画、音乐卡点与竖屏 2K MP4。需要本地执行环境和用户提供的配乐。",
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "Vibe Video",
+        "shortDescription": "按主题制作无旁白知识动画与竖屏 2K 成片",
+        "longDescription": "为知识类短视频创作者制作无旁白代码动画：核查主题、设计前 3 秒视觉钩子、编排中文分镜、分析真实配乐事件、渲染和混音，并交付 MP4 与技术验收报告。默认 60 秒、1440×2560、30fps，深黑、冰蓝和香槟金视觉。首次使用需配置本地 Python、Node.js、FFmpeg、中文字体及用户提供的配乐。包含二向箔代码案例；新主题需代理重新创作。公共包不含音乐或字体，无内置模型 API，不自动发布视频或购买素材。已验证 macOS 辅助脚本与渲染；各宿主和模型的完整出片质量需单独验证。",
+        "developerName": "immurray",
+        "category": "Productivity",
+        "capabilities": [
+          "事实核查与分镜",
+          "代码动画",
+          "音乐卡点",
+          "竖屏 2K MP4 导出"
+        ],
+        "websiteURL": "https://github.com/immurray/vibe-video",
+        "supportURL": "https://github.com/immurray/vibe-video/issues",
+        "defaultPrompt": [
+          "制作一条无旁白知识动画，主题：如果光速突然变慢。",
+          "使用我的配乐，为主题“黑洞为什么不是宇宙吸尘器”制作竖屏知识短视频。"
+        ],
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      },
+      "review": {
+        "release_notes": "1.1.0: 首次公开发行。提供标准 Agent Skill、Python/Node/FFmpeg 辅助脚本、中文代码动画案例、配乐事件分析和视频技术验收。MIT 许可；不捆绑音频、字体、个人配置或模型凭据。"
+      }
+    }
+  },
+  "author": {
+    "name": "immurray",
+    "url": "https://github.com/immurray"
+  },
+  "homepage": "https://github.com/immurray/vibe-video",
+  "repository": "https://github.com/immurray/vibe-video",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "animation",
+    "knowledge",
+    "chinese",
+    "ffmpeg",
+    "agent-skills"
+  ]
+}
