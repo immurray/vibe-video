@@ -11,12 +11,17 @@
 - 3 秒混音成片的全片解码、90 帧、H.264 / AAC / BT.709 校验；响度 -14.19 LUFS，真峰值 -3.22 dBTP。
 - 查看新渲染的关键帧，中文和箭头可见。
 - 本机 Hermes `skills list --source local` 实际显示 vibe-video，状态 enabled。
+- GitHub 公开仓库 immurray/vibe-video：默认分支 main，GitHub 已识别 MIT 许可证。
+- 从公开仓库运行 skills CLI 项目级安装；16 个技能文件与发布源码逐字节一致。
+- 从公开仓库运行 Hermes 安装到隔离目录；16 个技能文件完整一致，skills-guard-v2 扫描结果 SAFE，安装策略 ALLOWED。
+- 两项公开安装使用提交 32354e488617b7ed5197fbb68b800efb0ff35071；后续发行提交仅补充文档与验证记录，技能文件未改动。
 - 原版本在同机完成过 60 秒导出与全片解码；本次 finish.py 沿用该导出实现。
 
 尚未验证：
 - DSH 实际运行：本机未找到 dsh 命令。
 - DeepSeek / Hermes 等不同模型分别完成一个全新主题的全流程出片。
 - Linux、原生 Windows 的完整安装与渲染。
-- 任何市场的自动扫描、人工审核或发布成功。
+- skills.sh 网站搜索/榜单的索引状态。
+- OpenAI 目录上传、自动扫描、审核及上架；Hermes 官方推荐收录。
 
 测试复用了本机已安装依赖，不能称作一台全新电脑的零配置安装验证。

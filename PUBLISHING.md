@@ -8,11 +8,15 @@
 
 版本与下载：https://github.com/immurray/vibe-video/releases
 
+2026-10-18：仓库已公开，GitHub 已识别 MIT 许可证。
+
 核心技能位于 `skills/vibe-video/`；插件压缩包根目录包含 `plugin.json`。
 
 ## skills.sh
 
 安装命令：`npx skills add immurray/vibe-video --skill vibe-video`。
+
+2026-10-18：skills CLI 公开安装成功，16 个技能文件完整一致。
 
 skills.sh 使用 GitHub 技能和安装遥测进行收录与排名，没有单独上传 ZIP 的上架步骤。公开可安装不代表已经进入榜单；网站索引需要单独确认。
 
@@ -23,6 +27,8 @@ skills.sh 使用 GitHub 技能和安装遥测进行收录与排名，没有单�
 直接安装：`hermes skills install immurray/vibe-video/skills/vibe-video`。
 
 自定义源：`hermes skills tap add immurray/vibe-video`。
+
+2026-10-18：从 GitHub 安装成功，扫描结果 SAFE，安装策略 ALLOWED。
 
 GitHub tap 可供用户添加和安装；它不等于 Hermes 官方推荐。
 

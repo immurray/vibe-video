@@ -50,7 +50,7 @@ DSH:    使用 vibe-video，主题：如果光速突然变慢
 
 ## 验证范围
 
-macOS 辅助脚本、中文关键帧、原生 2K / 30fps 短片渲染和全片解码已测试；原案例完成过 60 秒成片。Hermes 本机可发现技能。DSH、不同模型的新主题端到端出片，以及 Linux / Windows 完整渲染尚未验证。格式兼容不保证模型质量一致。详见 [VALIDATION.md](VALIDATION.md)。
+macOS 辅助脚本、中文关键帧、原生 2K / 30fps 短片渲染和全片解码已测试；原案例完成过 60 秒成片。skills CLI 与 Hermes 已从公开 GitHub 仓库成功安装完整技能；Hermes 安装扫描结果为 SAFE。DSH、不同模型的新主题端到端出片，以及 Linux / Windows 完整渲染尚未验证。格式兼容不保证模型质量一致。详见 [VALIDATION.md](VALIDATION.md)。
 
 ## 许可与分发
 
